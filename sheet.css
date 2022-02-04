@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    border: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.disN {
+    display: none;
+}
+
+.disB {
+    display: block;
+}
+
+img{
+    height: auto;
+    width: auto;
+    max-width:300px;
+    max-height:300px;
+}
+
+.div-equal-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.div-equal-box div {
+    text-align: center;
+    width: 20%;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid #444444;
+}
+
+.box {
+    position: relative;
+}
+.top-left {
+    position: absolute;
+}
